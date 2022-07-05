@@ -29,7 +29,7 @@ h2 {
 
 p {
     font-size: 25px;
-    padding-left: 10%;
+
 
 }
 
@@ -66,4 +66,35 @@ p {
 
 .middle {
     background-image: url(images/shapes/7.png);
+}
+
+.recipies {
+    text-align: center;
+    color: gray;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box {
+    border: 20px white;
+}
+
+.centre {
+    text-align: center;
+    padding-left: 150px;
+}
+
+.last {
+    background-color: darkslategrey;
+    text-align: center;
+}
+
+.final {
+    color: orangered;
 }
