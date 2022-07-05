@@ -1,5 +1,5 @@
 body {
-    margin-left: 5px;
+    margin: 0;
     font-family: 'Arima', cursive;
     ;
 }
@@ -7,6 +7,10 @@ body {
 h1 {
     font-size: 70px;
     padding-left: 10%;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 .orange-color {
@@ -17,22 +21,26 @@ h1 {
     color: gray;
 }
 
+.color {
+    padding-right: 10px;
+}
+
 
 
 p {
     font-size: 25px;
     padding-left: 10%;
+
 }
 
-.top {
+.flexi {
     display: flex;
-
-
-
+    margin-bottom: 200px
 }
 
 .width {
     width: 50%;
+
 
 }
 
@@ -42,9 +50,20 @@ p {
 
 .link-button {
     text-decoration: none;
-    padding: 2% 2%;
-    border-radius: 5%;
+    margin-left: 10%;
+    padding: 10px 30px;
+    border-radius: 40px;
     background-image: linear-gradient(orange, tomato);
     color: azure;
     font-weight: 800;
+}
+
+.pic-edit img {
+    width: 40%;
+    margin-left: 90px;
+
+}
+
+.middle {
+    background-image: url(images/shapes/7.png);
 }
